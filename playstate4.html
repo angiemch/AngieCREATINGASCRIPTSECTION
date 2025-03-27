@@ -1,221 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
 
 /* 1 */
         .wayoutside {
-            width: 800px;
-
+              width: 800px;
         }
         .outside {
-            display: inline-block;
-            height: 300px;
-            width: 300px;
-            clip-path: circle(50% at 50% 50%);
-        
+              display: inline-block;
+              height: 300px;
+              width: 300px;
+              clip-path: circle(50% at 50% 50%);
         }
         .box3 {
-            background: white;
-            margin-left: 10px;
-            clip-path: circle(50% at 50% 50%);
-            animation: geeks 5s infinite;
-            animation-play-state: paused;
-            margin-top: -20px;
+              background: white;
+              margin-left: 10px;
+              clip-path: circle(50% at 50% 50%);
+              animation: geeks 5s infinite;
+              animation-play-state: paused;
+              margin-top: -20px;
         }
         .box2 {
-            height: 150px;
-            line-height: 150px;  
+              height: 150px;
+              line-height: 150px;  
         }
         .box {
-            position: relative;
-            width: 300px;
-            top:150px;
-            height: 150px;
-            font-size: 40px;
-            text-align: center;
-            left: 0px;
-            top:0px;
-            width: 500px;
-            background: #ddd;
-                    
-            border-style: solid;
-            border-width: 5px;
-            border-color: black;
-            overflow: hidden;
-        }
+              position: relative;
+              width: 300px;
+              top:150px;
+              height: 150px;
+              font-size: 40px;
+              text-align: center;
+              left: 0px;
+              top:0px;
+              width: 500px;
+              background: #ddd;
+              border-style: solid;
+              border-width: 5px;
+              border-color: black;
+              overflow: hidden;
+          }
           
         @keyframes geeks {
            0% {
-                margin-left: 50px;
-                margin-top: -20px;
-                width: 70px;
-                height: 70px;
+                  margin-left: 50px;
+                  margin-top: -20px;
+                  width: 70px;
+                  height: 70px;
             }
             20% {
-                margin-left: 170px;
-                margin-top: 0px;
-                width: 80px;
-                height: 80px;
-          }
-           35% {
-                margin-left: 190px;
-                margin-top: -20px;
-                width: 80px;
-                height: 80px;
-          }
-              100% {
-                margin-left: 210px;
-                margin-top: -20px;
-                width: 80px;
-                height: 80px;
+                  margin-left: 170px;
+                  margin-top: 0px;
+                  width: 80px;
+                  height: 80px;   
             }
-        }
-
-  .box3.horizTranslate {
-            animation-play-state: running;
-        }
+           35% {
+                  margin-left: 190px;
+                  margin-top: -20px;
+                  width: 80px;
+                  height: 80px;     
+            }
+            100% {
+                  margin-left: 210px;
+                  margin-top: -20px;
+                  width: 80px;
+                  height: 80px;
+            }
+          }
+        .box3.horizTranslate {
+              animation-play-state: running;
+          }
           
-
 /* makes it so it starts and stops when you hover over the div */
 
-   .box3:hover {
+        .box3:hover {
             animation-play-state: running;
-        }
+          }
 
 /* 2 */
-        .wayoutside2 {
-            width: 800px;
 
+        .wayoutside22 {
+              width: 800px;
         }
-        .outside2 {
-            display: inline-block;
-            height: 300px;
-            width: 300px;
-            clip-path: circle(50% at 50% 50%);
-        
+        .outside22 {
+              display: inline-block;
+              height: 300px;
+              width: 300px;
+              clip-path: circle(50% at 50% 50%);
         }
-        .box4 {
-            background: white;
-            margin-left: 10px;
-            clip-path: circle(50% at 50% 50%);
-            animation: geeks2 5s infinite;
-            animation-play-state: paused;
-            margin-top: -20px;
+        .box44 {
+              background: rgb(255, 16, 16);
+              margin-left: 10px;
+              clip-path: circle(50% at 50% 50%);
+              animation: geeks2 5s infinite;
+              animation-play-state: paused;
+              margin-top: -20px;
         }
-        .box3 {
-            height: 150px;
-            line-height: 150px;  
+        .box33 {
+              height: 150px;
+              line-height: 150px;  
         }
-        .box2 {
-            position: relative;
-            width: 300px;
-            top:150px;
-            height: 150px;
-            font-size: 40px;
-            text-align: center;
-            left: 0px;
-            top:0px;
-            width: 500px;
-            background: #ddd;
-                    
-            border-style: solid;
-            border-width: 5px;
-            border-color: black;
-            overflow: hidden;
-        }
+        .box22 {
+              position: relative;
+              width: 300px;
+              top:150px;
+              height: 150px;
+              font-size: 40px;
+              text-align: center;
+              left: 0px;
+              top:0px;
+              width: 500px;
+              background: #a3cbff;
+              border-style: solid;
+              border-width: 5px;
+              border-color: black;
+              overflow: hidden;
+          }
           
         @keyframes geeks2 {
            0% {
-                margin-left: 50px;
-                margin-top: -20px;
-                width: 70px;
-                height: 70px;
+                  margin-left: 50px;
+                  margin-top: -20px;
+                  width: 70px;
+                  height: 70px;
             }
-            20% {
-                margin-left: 170px;
-                margin-top: 0px;
-                width: 80px;
-                height: 80px;
-          }
-           35% {
-                margin-left: 190px;
-                margin-top: -20px;
-                width: 80px;
-                height: 80px;
-          }
-              100% {
-                margin-left: 210px;
-                margin-top: -20px;
-                width: 80px;
-                height: 80px;
+            25% {
+                  margin-left: 10px;
+                  margin-top: 80px;
+                  width: 80px;
+                  height: 80px;   
             }
-        }
+           40% {
+                  margin-left: 190px;
+                  margin-top: -40px;
+                  width: 80px;
+                  height: 80px;     
+            }
+            100% {
+                  margin-left: 210px;
+                  margin-top: -20px;
+                  width: 80px;
+                  height: 80px;
+            }
+          }
+        .box44.horizTranslate {
+              animation-play-state: running;
+          }
 
-  .box4.horizTranslate {
+        .box44:hover {
             animation-play-state: running;
-        }
-
-   .box4:hover {
-            animation-play-state: running;
-        }
-
-    </style>
+          }
+  </style>
 </head>
 <body>
 
 <!-- 1 -->
-    <button class='toggleButton' onclick='toggleTransition()'>Toggle</button>
-    <p>
-            Hover over the GeeksforGeeks 
-            to run the animation.
-        </p>
-      <div class="wayoutside">
-      <div class="outside">
-        <div class="box2"></div>
-        <div class="box">
-         <div class="box3">
-        </div>
-        </div>
-      </div>
-          <div class="outside">
-        <div class="box2"></div>
-        <div class="box">
-         <div class="box3">
-          </div>
-        </div>
+  <button class='toggleButton' onclick='toggleTransition()'>Toggle</button>
+  <p>
+          Hover over the GeeksforGeeks 
+          to run the animation.
+      </p>
+    <div class="wayoutside">
+    <div class="outside">
+      <div class="box2"></div>
+      <div class="box">
+       <div class="box3">
       </div>
       </div>
+    </div>
+        <div class="outside">
+      <div class="box2"></div>
+      <div class="box">
+       <div class="box3">
+        </div>
+      </div>
+    </div>
+    </div>
 
 <!-- 2 -->
-    <button class='toggleButton2' onclick='toggleTransition2()'>Toggle</button>
-    <p>
+ 
+<button class='toggleButton22' onclick='toggleTransition22()'>Toggle</button>
+<p>
         Hover over the GeeksforGeeks 
         to run the animation.
     </p>
-  <div class="wayoutside2">
-  <div class="outside2">
-    <div class="box3"></div>
-    <div class="box2">
-     <div class="box4">
+  <div class="wayoutside22">
+  <div class="outside22">
+    <div class="box33"></div>
+    <div class="box22">
+     <div class="box44">
     </div>
     </div>
   </div>
-      <div class="outside2">
-    <div class="box3"></div>
-    <div class="box2">
-     <div class="box4">
+      <div class="outside22">
+    <div class="box33"></div>
+    <div class="box22">
+     <div class="box44">
       </div>
     </div>
   </div>
   </div>
 
-<script>
+    <script>
+
 // 1
-var boxOne = document.getElementsByClassName('box3')[0];
+      var boxOne = document.getElementsByClassName('box3')[0];
 var boxTwo = document.getElementsByClassName('box3')[1];
 
 var running = false;
@@ -234,26 +227,28 @@ var toggleTransition = function() {
   running = !running;
 }
 
+
 // 2
-var boxOne2 = document.getElementsByClassName('box4')[0];
-var boxTwo2 = document.getElementsByClassName('box4')[1];
+
+var boxOne22 = document.getElementsByClassName('box44')[0];
+var boxTwo22 = document.getElementsByClassName('box44')[1];
 
 var running = false;
 
-var toggleTransition2 = function() {
+var toggleTransition22 = function() {
   if(!running) 
   { 
-    boxOne2.classList.add('horizTranslate');
-    boxTwo2.classList.add('horizTranslate');
+    boxOne22.classList.add('horizTranslate');
+    boxTwo22.classList.add('horizTranslate');
   } else {
-    boxOne2.classList.remove('horizTranslate'); 
-    boxTwo2.classList.remove('horizTranslate');
+    boxOne22.classList.remove('horizTranslate'); 
+    boxTwo22.classList.remove('horizTranslate');
     
   }  
 
   running = !running;
 }
 
-</script>
+    </script>
 </body>
 </html>
